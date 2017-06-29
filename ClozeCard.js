@@ -20,3 +20,5 @@ ClozeCard.prototype.clozeExist = function(){
         throw "the cloze value does not exist in the full text";
     }
 }
+
+module.exports = ClozeCard;
